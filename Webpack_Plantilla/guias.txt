@@ -1,0 +1,12 @@
+npm init --yes
+
+npm i webpack webpack-cli html-webpack-plugin handlebars handlebars-loader image-webpack-loader css-loader mini-css-extract-plugin sass-loader node-sass autoprefixer postcss-loader file-loader webpack-dev-server rimraf
+------------
+"build": "rimraf dist && webpack --config ./webpack/webpack.config.js --mode production",
+
+"start": "webpack serve --config ./webpack/webpack.config.js --mode development"
+------------
+creamos carpeta src
+
+npm start
+npm run build
